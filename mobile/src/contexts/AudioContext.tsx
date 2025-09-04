@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useRef, useEffect } from 'react';
 import { Audio } from 'expo-av';
+import { Platform } from 'react-native';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from './AuthContext';
 
